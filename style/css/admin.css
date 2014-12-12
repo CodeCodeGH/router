@@ -1,0 +1,347 @@
+/*预定义样式*/
+*{
+	list-style:none;
+	text-decoration:none;
+	margin:0px;
+	padding:0px;
+}
+
+Body{
+	width:100%;
+	color:#333333;
+	line-height:35px;
+	/*background:url(../images/admin/back3.jpg) no-repeat;*/
+}
+
+#showInfo{
+	width:250px;
+	height:250px;
+	position: absolute;
+	top:40%;
+	left:50%;
+	background: #000;
+	margin:-125px  0 0 -125px;
+	filter:alpha(Opacity=70);
+	-moz-opacity:0.7;
+	opacity:0.7;
+	-webkit-border-radius: 10px;
+    	border-radius: 10px;
+    	color:#fff;
+    	font:30px bold  微软雅黑;
+    	text-align: center;
+    	vertical-align: middle;
+    	display: none;
+}
+
+/*后台登陆*/
+#loginBody #loginBezel{ 
+	width:500px;
+	height:300px;
+	margin:0px auto;
+	margin-top:200px;
+	border:1px solid #0000;
+	border-radius:4px;
+	-moz-border-radius:4px; /* Old Firefox */
+	box-shadow: 30px 30px 50px ;   /* for IE */
+	background:#FFF;
+	background:rgba(255,255,255,0.3);  /* 登录主窗口半透明*/
+	font:bold 19px 宋体;
+
+}
+#loginBody #loginChildTop{
+	width:100%;
+	height:20%;
+	background:#333333;
+	color:#FFFFFF;
+	font:bold 20px 宋体;
+	line-height:60px;
+	cursor:pointer;
+	border-radius:4px;
+-moz-border-radius:4px; /* Old Firefox */
+}
+
+#loginBody #loginChildBottom{
+	width:100%;
+	height:80%;
+}
+#loginBody table{
+	text-align:center;
+	padding:10px auto;
+	margin-top:10px;
+	color:#000;
+}
+#loginBody .inputUP{
+width:200px;
+height:35px;
+padding:0px 5px;
+border:1px solid #999999;
+border-radius:4px;
+-moz-border-radius:4px; /* Old Firefox */
+}
+.onFocus{
+	box-shadow:0 0 10px #2D46AE;   /* for IE */
+}
+#loginBody #checkNum{
+width:80px;
+height:35px;
+padding:0px 5px;
+border:1px solid #999999;
+border-radius:4px;
+-moz-border-radius:4px; /* Old Firefox */
+}
+
+#loginBody #toLogin{
+width:100px;
+height:35px;
+font-size:15px;
+color:#FFFFFF;
+border-radius:4px;
+-moz-border-radius:4px; /* Old Firefox */
+cursor:pointer;
+background-color: #2a2525;
+background: rgba(0,0,0,0.4); 
+border:1px solid rgba(0,0,0,0.4);
+}
+#loginBody #checkSpan{
+	border:1px solid red;
+	margin-top:100px;
+}
+
+#loginBody #checkImage{
+	width:100px;
+	height:35px;
+	border:1px solid #999999;
+	border-radius:4px;
+	cursor:pointer;
+}
+#loginBody #pointerOpen{
+	width:30px;
+	height:30px;
+	margin:200px auto;
+	border:1px #000000 solid;
+	border-radius:15px;
+	-moz-border-radius:4px; /* Old Firefox */
+	display:none;
+	cursor:pointer;
+}
+#loginErrorMessage{
+	width:100%;
+	height:100%;
+	margin-top:50px;
+}
+#loginErrorMessage ul{
+	padding-left:160px;
+}
+#loginErrorMessage .errorImage{
+	height:30px;
+	line-height:30px;
+	padding-left: 35px;
+	background:url(../images/admin/jbox-icons.png) no-repeat -145px 0px;
+	color:#CC0000;
+}
+
+/*后台首页*/
+a{
+	color:#FFF;
+}
+.bezel{
+	width:99%;
+	height:1200px;
+	color:#FFF;
+	background:url(../images/admin/back3.jpg) no-repeat;
+	margin:5px auto;
+}
+.head{
+	width:100%;
+	height:7%;
+	background:#3c4145;
+	background:rgba(0,0,0,0.5);
+	line-height:60px;
+	border-top-left-radius:4px;
+	border-top-right-radius:4px;
+	-moz-border-top-left-radius:4px;
+	-moz-border-top-right-radius:4px;/* Old Firefox */
+	overflow:hidden;
+	border-bottom:2px #000 solid;
+}
+.head div{
+	height:100%;
+	float:left;
+	line-height:60px;
+}
+
+.hleft{
+	width:15%;
+	font:bold 19px Time New Roman;
+}
+
+.head-icon{
+	height:60px;
+	background:url(../images/admin/logo-right.png) no-repeat;
+	background-position:10px 0;
+	display:block;
+	margin-top:10px;
+	padding-left:70px;
+}
+
+.hright{
+	width:85%;
+}
+.hright span{
+	float:right;
+	display:inline;
+	margin-top:10px;
+	padding-right:15px;
+}
+.outLogin{
+	padding:0px 8px;
+	height:25px;
+	line-height:25px;
+	text-align:center;
+	font-size:13px;
+	color:#FFFFFF;
+	background-color: #2a2525;
+	background: rgba(0,0,0,0.4); 
+	border:1px rgba(0,0,0,0.4) solid;
+	border-radius:4px;
+	-moz-border-radius:4px; /* Old Firefox */
+	cursor:pointer;
+	display:inline-block;
+}
+.outLogin:hover{
+	text-decoration: none;
+	color:#FF8C69;
+}
+
+
+.center{
+	width:100%;
+	height:90%;
+	clear:both;
+}
+.cleft{
+	width:15%;
+	height:100%;
+	background:#30383b;
+	background:rgba(0,0,0,0.6);
+	float:left;
+	display:inline;
+	overflow-y:auto;
+}
+.cleft h4{
+	text-align:center;
+	line-height:44px;
+	cursor:pointer;
+	border-bottom:1px rgba(0,0,0,0.2) solid;
+	font-size:14px;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+.cleft ul{
+	font-size:13px;
+	background:#30383b;
+	background:rgba(0,0,0,0.22);
+	display:none;
+}
+.cleft ul li{
+	text-align:center;
+	border-bottom:1px #CCC solid;
+	border-bottom:1px rgba(0,0,0,0.1) solid;
+}
+
+.cleft ul li a{
+	height:40px;
+	line-height:40px;
+	text-align:center;
+	display:block;
+}
+
+.cleft ul li.on{
+	font-size:15px;
+	border-right:4px #7dc92d solid;
+	padding-left:5px;
+	background:#30383b;
+	background:rgba(0,0,0,0.2);
+}
+
+.cleft h4.on{
+	background-color:#2a2525;
+	border-left:4px #7dc92d solid;
+	padding-right:4px;
+}
+
+.rleft{
+	width:85%;
+	height:100%;
+	background:#30383b;
+	background:rgba(0,0,0,0.6);
+	overflow-y:auto;
+	float:left;
+	padding-left: 5px;
+	position:relative;
+}
+
+.jumbotron{
+	color:#000;
+	/*height:95%;*/
+	min-height: 95% !important;
+	height:95%;
+	height:auto;
+	width:99%;
+	border-radius:6px;
+	-moz-border-radius:6px; /* Old Firefox */
+	box-shadow: 30px 30px 50px ;   /* for IE */
+	margin-top:2px; 
+}
+
+a:focus{
+	outline:thin;
+	color:#fff;
+	text-decoration: none;
+}
+
+a:hover,a:active{
+	text-decoration: none;
+	color:#FF8C69;
+}
+
+.floot{
+	clear:both;
+	width:100%;
+	height:5%;
+	text-align:center;
+	background:rgba(0,0,0,0.6);
+	border-top:1px #000 solid;
+	border-top:1px rgba(0,0,0,0.5) solid;
+	font:bold 14px 宋体;
+	height:30px;
+	line-height:30px;
+	border-bottom-left-radius:4px;
+	border-bottom-right-radius:4px;
+	-moz-border-bottom-left-radius:4px;
+	-moz-border-bottom-right-radius:4px;
+}
+
+/*show*/
+#show-table{
+	margin-top:10px;
+}
+
+#show-table .panel-heading {
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    padding: 0 15px;
+}
+
+.modal-dialog{
+	margin-top:100px;
+}
+
+#addUser .panel-heading{
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    padding: 0 15px;
+}
+
